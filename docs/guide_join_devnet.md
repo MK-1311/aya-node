@@ -61,7 +61,7 @@ rustup show
 rustup +nightly show
 ```
 
-### 3.1 Build AyA-Node from Source Code
+### 3. A) Build AyA-Node from Source Code
 
 We recommend to compile the aya-node not on a small virtual machine as this can take quite some time. Instead build the aya-node on your local machine and copy the binary to the server. 
 
@@ -97,7 +97,7 @@ git merge main
 ```
 For more information on git see: [A beginner's guide to Git version control](https://developers.redhat.com/articles/2023/08/02/beginners-guide-git-version-control#)
 
-### 3.2 Use Precompiled Binaries
+### 3. B) Use Precompiled Binaries
 
 If you do not want to build the aya-node from source, you can use the precompiled binaries: 
 
